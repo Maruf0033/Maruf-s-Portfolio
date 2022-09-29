@@ -22,7 +22,7 @@ section {
 }
 
 .adha img {
-    width: 100%;
+    width: 80%;
 }
 
 .link-button {
@@ -35,4 +35,8 @@ section {
 
 .one {
     background-image: url(top-banner.png);
+}
+
+.joy {
+    color: rgb(233, 167, 0);
 }
