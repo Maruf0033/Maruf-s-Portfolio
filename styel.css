@@ -13,13 +13,17 @@ h1 {
 
 }
 
-section {
+.img {
+    width: 55%;
+}
+
+.flex {
     display: flex;
     margin-bottom: 80px;
 }
 
 .adha {
-    width: 50%;
+    width: 80%;
     padding-left: 2%;
 
 }
@@ -39,4 +43,13 @@ section {
 
 .joy {
     color: rgb(233, 167, 0);
+}
+
+.half {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
