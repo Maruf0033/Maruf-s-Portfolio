@@ -45,6 +45,12 @@ h1 {
     color: rgb(233, 167, 0);
 }
 
+.three {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .half {
     width: 40%;
     box-shadow: 10px 10px 40px gray;
@@ -52,4 +58,21 @@ h1 {
     margin-right: 5%;
     padding-left: 10px;
     padding-right: 10px;
+
+}
+
+#do {
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#me {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
